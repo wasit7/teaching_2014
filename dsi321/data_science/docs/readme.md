@@ -29,7 +29,7 @@ This project not only enhances the technical skills of data science students but
 By engaging with this project, students not only gain practical skills but also develop a systematic approach to solving data-driven problems, making them well-prepared for challenges in the data science landscape.
 
 ## Documents
-- [Introduction](0_introduction.md)
+- [Introduction](readme.md)
 - [Docker](1_docker.md)
 - [Postgresql](2_postgresql.md)
 - [Jupyter](3_jupyter.md)
