@@ -1,0 +1,33 @@
+nwdiag {
+  inet [shape = cloud, description = "Public Internet"];
+  inet -- router [label = "Public connection"];
+
+  network external {
+    address = "192.168.1.0/24"
+    description = "External Network (Public Accessible)";
+
+    VM [address = "192.168.1.100", description = "Virtual Machine"];
+    router [address = "203.0.113.1", description = "Gateway Router with Public IP"];
+  }
+
+  network internal {
+    address = "10.0.0.0/24"
+    description = "Internal Network (Private)";
+
+    Jupyter [address = "10.0.0.2", description = "Jupyter Notebook Service"];
+    PostgreSQL [address = "10.0.0.3", description = "PostgreSQL Database Service"];
+    Streamlit [address = "10.0.0.4", description = "Streamlit App Service"];
+    MLflow [address = "10.0.0.5", description = "MLflow Tracking Service"];
+
+    VM [address = "10.0.0.1", description = "Internal Gateway for Containers"];
+  }
+
+  group docker_compose {
+    color = "#EEEEEE";
+    label = "Docker Compose Services";
+    Jupyter;
+    PostgreSQL;
+    Streamlit;
+    MLflow;
+  }
+}
