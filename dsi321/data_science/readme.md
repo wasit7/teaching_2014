@@ -84,13 +84,13 @@ docker-compose exec <service_name> pytest
   - **Solution**: Ensure volumes are properly mounted and Streamlit is set to watch for changes.
 
 ## Documents
-[Introduction](docs/0_introduction.md)
-[Docker](docs/1_docker.md)
-[Postgresql](docs/2_postgresql.md)
-[Jupyter](docs/3_jupyter.md)
-[Streamlit](docs/4_streamplit.md)
-[MLflow](docs/5_mlflow.md)
-[Summary](docs/6_project_summary.md)
+- [Introduction](docs/0_introduction.md)
+- [Docker](docs/1_docker.md)
+- [Postgresql](docs/2_postgresql.md)
+- [Jupyter](docs/3_jupyter.md)
+- [Streamlit](docs/4_streamplit.md)
+- [MLflow](docs/5_mlflow.md)
+- [Summary](docs/6_project_summary.md)
 
 
 ## Authors
