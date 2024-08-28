@@ -10,20 +10,21 @@ pip install pandas
 ```
 
 ## Contents
-part1/6
+dsi321 part1/6: การติดตั้ง docker
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1BETe9_cHLc/0.jpg)](https://www.youtube.com/watch?v=1BETe9_cHLc)
 
-part1/6
+dsi321 part2/6: การใช้งาน docker-compose jupyter and postgresql
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gIJnhiMtcvw/0.jpg)](https://www.youtube.com/watch?v=gIJnhiMtcvw)
 
-part1/6
+dsi321 part3/6: การใช้งาน vm jupyter and postgresql
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LvkqFooMI-U/0.jpg)](https://www.youtube.com/watch?v=LvkqFooMI-U)
 
-part1/6
+dsi321 part4/6: การพัฒนา streamlit app
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3P0fPmHTHvQ/0.jpg)](https://www.youtube.com/watch?v=3P0fPmHTHvQ)
 
-part1/6
+dsi321 part5/6: การติดตั้ง MLFlow
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/iKjER70mxk0/0.jpg)](https://www.youtube.com/watch?v=iKjER70mxk0)
 
-part1/6
+dsi321 part6/6: สรุปภาพรวมระบบ project summary
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/A9nLjQh4pxI/0.jpg)](https://www.youtube.com/watch?v=A9nLjQh4pxI)
